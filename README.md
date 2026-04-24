@@ -53,7 +53,7 @@ pose-correction-system/
 │   └── output.png
 ├── main.py
 ├── requirements.txt
-└── README.md ```
+└── README.md 
 
 
 ## Notes
