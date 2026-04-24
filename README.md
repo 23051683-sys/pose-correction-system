@@ -40,12 +40,13 @@ Screenshots from project execution:
 
 ## Project Structure
 
-pose-correction-system/
-├── notebooks/
-├── model/
-├── main.py
-├── requirements.txt
-└── README.md
+pose-correction-system/  
+├── assests/  
+├── notebooks/  
+├── model/  
+├── main.py  
+├── requirements.txt  
+└── README.md  
 
 
 ## Notes
