@@ -3,11 +3,21 @@
 A real-time human pose estimation and exercise correction system using MediaPipe and deep learning.
 
 ## Features
-- Detects 33 body landmarks using MediaPipe
-- Calculates joint angles for movement analysis
-- Classifies exercises using trained deep learning model
-- Counts repetitions and detects incorrect posture
+- Detects 33 body landmarks using MediaPipe Pose
+- Computes joint angles for movement analysis
+- Performs exercise classification using a trained deep learning model (.h5)
+- Counts repetitions based on angle thresholds
+- Provides basic posture correction feedback
 - Real-time video processing using OpenCV
+
+## Demo
+Screenshots from project execution:
+
+- Pose detection using MediaPipe  
+- Joint angle calculation and visualization  
+- Exercise classification and repetition counting  
+
+(Add your screenshots here)
 
 ## Tech Stack
 - Python
@@ -16,4 +26,26 @@ A real-time human pose estimation and exercise correction system using MediaPipe
 - NumPy
 - TensorFlow / Keras
 
+## How It Works
+1. Video frames are captured using OpenCV  
+2. MediaPipe extracts 33 body landmarks  
+3. Joint angles are calculated using landmark coordinates  
+4. Angles are used for:
+   - Exercise classification (ML model)
+   - Repetition counting (rule-based logic)  
+5. Feedback is generated for incorrect posture  
+
 ## Project Structure
+
+pose-correction-system/
+├── notebooks/
+├── model/
+├── main.py
+├── requirements.txt
+└── README.md
+
+
+## Notes
+- Full implementation available in notebooks  
+- Project developed and tested on Google Colab  
+- Model file: `exercise_model.h5`
