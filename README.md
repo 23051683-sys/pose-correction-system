@@ -13,11 +13,14 @@ A real-time human pose estimation and exercise correction system using MediaPipe
 ## Demo
 Screenshots from project execution:
 
-- Pose detection using MediaPipe  
-- Joint angle calculation and visualization  
-- Exercise classification and repetition counting  
+### Input Frame
+![Input](assets/input.png)
 
-(Add your screenshots here)
+### Pose Detection (MediaPipe Landmarks)
+![Pose](assets/pose_landmarks.png)
+
+### Final Output (Exercise + Feedback)
+![Output](assets/output.png)
 
 ## Tech Stack
 - Python
