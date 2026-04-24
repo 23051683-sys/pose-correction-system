@@ -41,9 +41,15 @@ Screenshots from project execution:
 ## Project Structure
 
 pose-correction-system/  
-├── assests/  
 ├── notebooks/  
+    ├── Exercise_Classifier.ipynb  
+    ├── FinalProject.ipynb  
 ├── model/  
+    ├── exercise_model.h5  
+├── assests/  
+    ├── input.png  
+    ├── pose_landmarks.png  
+    ├── output.png  
 ├── main.py  
 ├── requirements.txt  
 └── README.md  
