@@ -40,19 +40,20 @@ Screenshots from project execution:
 
 ## Project Structure
 
-pose-correction-system/  
-├── notebooks/  
-    ├── Exercise_Classifier.ipynb  
-    ├── FinalProject.ipynb  
-├── model/  
-    ├── exercise_model.h5  
-├── assests/  
-    ├── input.png  
-    ├── pose_landmarks.png  
-    ├── output.png  
-├── main.py  
-├── requirements.txt  
-└── README.md  
+```text
+pose-correction-system/
+├── notebooks/
+│   ├── Exercise_Classifier.ipynb
+│   └── FinalProject.ipynb
+├── model/
+│   └── exercise_model.h5
+├── assets/
+│   ├── input.png
+│   ├── pose_landmarks.png
+│   └── output.png
+├── main.py
+├── requirements.txt
+└── README.md
 
 
 ## Notes
